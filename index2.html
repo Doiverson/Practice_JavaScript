@@ -10,9 +10,87 @@
     let total = 0;
     for(let num=1; num<=100;  num++){
         total += num;
-    };
+    }
 
     console.log(total);
+    console.log("=======================")
+
+    let odd = 0;
+    for(let num1 = 1; num1<=100; num1++){
+        if(num1 % 2 == 0){
+            odd = num1;
+            console.log(odd);
+        }
+    }
+    console.log("=======================")
+
+    // let max = 0;
+    // let input = prompt('Enter the number1');
+    // let input2 = prompt('Enter the number2');
+    // let input3 = prompt('Enter the number3');
+    // console.log(Math.max(input, input2, input3));
+    // console.log("=======================")
+
+    const marks = [90, 80];
+    // marks.push(100);
+    marks.pop();
+    console.log(marks);
+    console.log("=======================")
+
+    let currentDebt = 140;
+    currentDebt = currentDebt - 35;
+    console.log(currentDebt);
+    console.log("=======================")
+
+    // let x = 10;
+    // console.log(x);
+    // {
+    //     var x = 2;
+    // }
+    // console.log(x);
+    // console.log("=======================")
+
+    let hennsuu = "a";
+    hennsuu = "b";
+    console.log(hennsuu);
+    console.log("=======================")
+
+    let acter = ["Justin","Ariana","Taylor",];
+    acter.push("Eminem", "Beyonce");
+    acter.pop(); //remove right
+    acter.shift(); //remove left
+    acter.unshift("Taylor");
+    console.log(acter);
+    console.log("=======================")
+
+    let theNumber = Number(prompt("Enter a number"));
+    if(!Number.isNaN(theNumber)){
+        console.log("Your number is the square root of " + theNumber * theNumber);
+    } else {
+        console.log("Fuck you, bitch!!");
+    }
+    console.log("=======================")
+
+    let yourName;
+    do {
+        yourName = prompt("Who are you?");
+    } while (!yourName);
+    console.log(yourName);
+    console.log("=======================")
+
+    if (false != true) {
+        console.log("That's makes sense")
+        if (1>2) {
+            console.log("No surprise there");
+        }
+    }
+    console.log("=======================")
+
+
+
+
+
+
 
 </script>
 </body>
