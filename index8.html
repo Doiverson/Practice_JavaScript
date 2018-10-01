@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>Bread</li>
+    <li>Cookies</li>
+    <p>Click the button to change the text of the first list item (index 0).</p>
+    <button onclick="myFunction()">Try it</button>
+</ul>
+<script>
+    function myFunction() {
+        var list = document.getElementsByTagName("ul")[0];
+        list.getElementsByTagName("li")[0].innerHTML = "Cake"
+
+    }
+</script>
+
+
+</body>
+</html>
