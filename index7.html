@@ -13,6 +13,12 @@
         function myFunction() {
             confirm("Press a button!");
         }
+        function myFunction1() {
+            var person = prompt("Please enter your name", "Harry Potter");
+            if (person != null) {
+                document.getElementById("insert").innerHTML = "Hello " + person + "! How are you today?";
+            }
+        }
 
     </script>
 </head>
@@ -20,5 +26,10 @@
 <input type="button" onclick="Hello();" name="ok" value="OK">
 <p onmouseover="EventHandler();">Touch me</p>
 <button onclick="myFunction()">Try it</button>
+<p>Click the button to demonstrate the prompt box.</p>
+<button onclick="myFunction1()">Try it</button>
+<p id=“insert"></p>
+
+
 </body>
 </html>
