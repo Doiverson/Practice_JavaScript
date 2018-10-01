@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            border: 1px solid black;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body>
+<div id="change">
+    <p class="child">A p element with class="child" in a div.</p>
+    <p class="child">Another p element with class="child" in a div.</p>
+    <p>A p element in div with a <span class="child">span element with class="child"</span> inside of it.</p>
+</div>
+<p>Click the button to add a background color to all elements with class="child" inside the div element with id=“Change".</p>
+<button onclick="changeColor();">Try it</button>
+<p><strong>Note:</strong> The getElementsByClassName() method is not supported in Internet Explorer 8 and earlier versions.</p>
+
+
+<script>
+    function changeColor() {
+        var x = document.getElementById("change");
+        var y = x.getElementsByClassName("child");
+        var i;
+        for (i = 0; i < y.length; i++) {
+            y[i].style.backgroundColor = "green";
+        }
+    }
+</script>
+</body>
+</html>
