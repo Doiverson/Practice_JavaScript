@@ -1,4 +1,6 @@
 
+
+//Test Prime
 function TestPrime(num){
     if (num <= 1) {
         return false;
@@ -14,6 +16,7 @@ function TestPrime(num){
     }
 }
 
+//Find Primes
 function FindPrimes(num) {
     let prime_numbers = [];
 
@@ -26,6 +29,8 @@ function FindPrimes(num) {
 }
 
 
+//Get button element and add event listener.
+//Calculate the time.
 let button = document.getElementById("button");
 button.addEventListener('click', function(e){
     e.preventDefault();
