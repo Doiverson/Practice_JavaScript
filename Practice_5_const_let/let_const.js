@@ -45,22 +45,23 @@ function printTreehouseSummary() {
   console.log(`Treehouse has ${i} JavaScript courses, and ${teachers.length} Javascript teachers`);
 }
 
+let newTeachers = [
+    {
+        name: 'James',
+        topicArea: 'Javascript'
+    },
+    {
+        name: 'Treasure',
+        topicArea: 'Javascript'
+    }
+];
+
 
 addNewTeachers(newTeachers);
 printTreehouseSummary();
 
 
 
-let newTeachers = [
-	{
-		name: 'James',
-		topicArea: 'Javascript'
-	},
-	{
-		name: 'Treasure',
-		topicArea: 'Javascript'
-	}
-];
 
 
 
