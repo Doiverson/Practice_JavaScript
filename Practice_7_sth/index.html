@@ -33,11 +33,27 @@
     //     }
     // }
 
-    var num = 15;
-    var n = num.toString();
-    console.log(n);
-    var x = (20).toString();
-    console.log(x);
+    let Rectangle = class {
+        constructor(height, width) {
+            this.height = height;
+            this.width = width;
+        }
+    };
+
+    let Person = class {
+        constructor(firstName, lastName, email) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.email = email
+        }
+    }
+
+    var testPerson = new Person('Ivan', 'Malone', 'ivanincanada@gmail.com');
+    console.log(testPerson.firstName);
+    testPerson.firstName = "Sho";
+    console.log(testPerson.firstName);
+
+
 
 
 </script>
