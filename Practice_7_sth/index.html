@@ -8,43 +8,17 @@
 
 
 <script>
-    // const array = [3,4];
-    // console.log(array);
-    // array.push(1,2);
-    // console.log(array);
-    // array.map(value => {
-    //    console.log(value);
-    // });
-    //
-    // for(num in array){
-    //     console.log(num);
-    // }
-    //
-    // var myArray = []
-    //
-    // for(var count=0; count<=1000; count++){
-    //     myArray.push(count);
-    // }
-    //
-    // if(myArray.length !==1000){
-    //     console.log('error');
-    //     while(myArray.length !==0){
-    //
-    //     }
-    // }
+  const array = [1,2,3,4];
+  array.map(a=>{
+      console.log(a);
+  });
 
-    //
+  array.forEach(b=>{
+     console.log(b);
+  });
 
-    var myURL = "https://raw.githubusercontent.com/MatthiasWinkelmann/firstname-database/master/firstnames.csv";
-
-    function downloadData()
-    {
-        var client = new XMLHttpRequest();
-        client.open('GET', myURL);
-        client.onreadystatechange = function() {
-            alert(client.responseText);
-        }
-    }
+  const first = [1,2,3,4];
+  console.log(first.shift());
 
 
 
