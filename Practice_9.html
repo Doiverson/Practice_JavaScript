@@ -10,3 +10,19 @@
     </style>
 </head>
 <body onload="startGame()">
+
+<script>
+
+    console.log("test");
+    var animate = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (callback) {
+        window.setTimeout(callback, 1000 / 60)
+    };
+
+    function startGame() {
+        console.log("starting game");
+    }
+
+</script>
+<br>
+</body>
+</html>
