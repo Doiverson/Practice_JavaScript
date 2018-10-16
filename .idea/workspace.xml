@@ -59,8 +59,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Practice_8/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="544">
               <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+=======
+            <state relative-caret-position="514">
+              <caret line="189" column="7" lean-forward="true" selection-start-line="189" selection-start-column="7" selection-end-line="189" selection-end-column="7" />
+>>>>>>> 917a9f22f6b6a33ff1b9bf5c532a3713088fd220
             </state>
           </provider>
         </entry>
@@ -173,11 +178,16 @@
       <workItem from="1538008122164" duration="1065000" />
       <workItem from="1538341113526" duration="6166000" />
       <workItem from="1538433831346" duration="421000" />
+<<<<<<< HEAD
       <workItem from="1539712643404" duration="453000" />
+=======
+      <workItem from="1539712643404" duration="235000" />
+>>>>>>> 917a9f22f6b6a33ff1b9bf5c532a3713088fd220
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="19206000" />
   </component>
   <component name="ToolWindowManager">
@@ -185,6 +195,14 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2663605" />
+=======
+    <option name="totallyTimeSpent" value="18988000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3" y="0" width="892" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2663605" />
+>>>>>>> 917a9f22f6b6a33ff1b9bf5c532a3713088fd220
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -196,7 +214,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19430692" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19430692" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -223,8 +241,13 @@
     <entry file="file://$PROJECT_DIR$/index10.html" />
     <entry file="file://$PROJECT_DIR$/Practice_8/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="544">
           <caret line="191" column="1" lean-forward="true" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+=======
+        <state relative-caret-position="514">
+          <caret line="189" column="7" lean-forward="true" selection-start-line="189" selection-start-column="7" selection-end-line="189" selection-end-column="7" />
+>>>>>>> 917a9f22f6b6a33ff1b9bf5c532a3713088fd220
         </state>
       </provider>
     </entry>
