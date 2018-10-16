@@ -9,6 +9,7 @@
         }
     </style>
 </head>
+<<<<<<< HEAD
 <body onload="">
 <script>
     console.log("Script Start");
@@ -23,6 +24,21 @@
 
 
     console.log("End");
+=======
+<body onload="startGame()">
+
+<script>
+
+    console.log("test");
+    var animate = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (callback) {
+        window.setTimeout(callback, 1000 / 60)
+    };
+
+    function startGame() {
+        console.log("starting game");
+    }
+
+>>>>>>> b3187e970a412ecbfec85ed330e5e38378397589
 </script>
 <br>
 </body>
